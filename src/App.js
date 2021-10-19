@@ -20,7 +20,7 @@ function App() {
       navtitle: "home",
       maintitle: "hello",
       subtitle: "efficiency is my obsession",
-      subtext: "min/maxing my time off",
+      subtext: "min/maxing my time on and off the clock",
     },
     {
       index: 1,
