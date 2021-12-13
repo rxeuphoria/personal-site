@@ -17,25 +17,32 @@ function App() {
   const [pages] = useState([
     {
       index: 0,
-      navtitle: "home",
+      navtitle: "",
       maintitle: "hello",
-      subtitle: "efficiency is my obsession",
-      subtext: "min/maxing my time on and off the clock",
+      subtitle: "it's more hobby playground than portfolio",
+      subtext: "learning a little extra where i can",
     },
     {
       index: 1,
-      navtitle: "articles",
-      maintitle: "articles",
-      subtitle: "",
-      subtext: "coming soon",
+      navtitle: "about",
+      maintitle: "",
+      subtitle: "this webapp is about",
+      subtext: "exploring create-react-app and some other lightweight packages around it.  it's limited, but that's the point.",
     },
     {
       index: 2,
       navtitle: "contact",
-      maintitle: "cast a lure",
-      subtitle: "based in detroit, mi",
-      subtext: "benchackerman@gmail.com",
+      maintitle: "",
+      subtitle: "help get me to seattle",
+      subtext: "↓(via employment)↓",
     },
+    // {
+    //   index: 3,
+    //   navtitle: "tools",
+    //   maintitle: "",
+    //   subtitle: "calculators and other golfed solutions",
+    //   subtext: "it's all for practice."
+    // }
   ]);
   const [index, setIndex] = useState(0);
 

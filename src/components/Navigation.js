@@ -9,6 +9,16 @@ const Nav = styled.nav`
 const Badge = styled.h3`
   font-weight: bold;
 `;
+
+const BadgeButton = styled.button`
+  font-weight:bold;
+  text-decoration: none;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  cursor: pointer;
+`;
+
 const NavLinks = styled.div`
   display: flex;
   gap: 10px;
@@ -22,16 +32,17 @@ const NavLinkSingle = styled.button`
   cursor: pointer;
 `;
 
-const Navigation = ({pages, selectPage}) => {
- 
+const Navigation = ({ pages, selectPage }) => {
   return (
     <Nav>
-      <Badge>benjamin charles</Badge>
+      <Badge><BadgeButton onClick={() => {selectPage(0);}}>benjamin charles</BadgeButton></Badge>
       <NavLinks>
         {pages.map((prop) => (
           <NavLinkSingle
             key={prop.index}
-            onClick={() => {selectPage(prop.index)}}
+            onClick={() => {
+              selectPage(prop.index);
+            }}
           >
             {prop.navtitle}
           </NavLinkSingle>

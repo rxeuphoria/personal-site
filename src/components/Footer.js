@@ -28,7 +28,7 @@ const centerIconStyling = {
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterSection>last updated Sept 2021</FooterSection>
+      <FooterSection>last updated Dec 2021</FooterSection>
       <FooterSection>
         <a href="https://www.linkedin.com/in/bcackerman/">
           <img src={linkedinIcon} style={centerIconStyling} alt="LinkedIn" />
