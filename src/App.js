@@ -19,15 +19,15 @@ function App() {
       index: 0,
       navtitle: "",
       maintitle: "hello",
-      subtitle: "it's more hobby playground than portfolio",
-      subtext: "learning a little extra where i can",
+      subtitle: "i work in fintech",
+      subtext: "(not the pretty UI parts, if that wasn't readily apparent)",
     },
     {
       index: 1,
       navtitle: "about",
       maintitle: "",
       subtitle: "this webapp is about",
-      subtext: "exploring create-react-app and some other lightweight packages around it.  it's limited, but that's the point.",
+      subtext: "being a deployable playground for stuff i want to toy with in react. it changes, and doesn't have a theme. it's also nice to have something out there that people can look at, even if it's not what you're best at.",
     },
     {
       index: 2,
@@ -35,14 +35,7 @@ function App() {
       maintitle: "",
       subtitle: "help get me to seattle",
       subtext: "↓(via employment)↓",
-    },
-    // {
-    //   index: 3,
-    //   navtitle: "tools",
-    //   maintitle: "",
-    //   subtitle: "calculators and other golfed solutions",
-    //   subtext: "it's all for practice."
-    // }
+    }
   ]);
   const [index, setIndex] = useState(0);
 
